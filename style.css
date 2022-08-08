@@ -1,11 +1,15 @@
 div {
     font-family: Helvetica;
-    background-color: #272D33;
+    background-color: #196436;
     color: white;
     font-size: 32px;
     padding: 5px;
  }
   
+.items {
+   size: 500px;
+}
+
  #big_div {
     display: flex;
     justify-content: space-around;
@@ -15,13 +19,26 @@ div {
     width: 60px;
  }
   
- .items:hover {
-    background-color: gray;
-    opacity: 0.5;
- }
-  
  a {
     width: 20%;
     text-align: center;
     text-decoration: none;
+ }
+ #particles-js {
+   height: 400px;
+   padding: 30px;
+ }
+ #para {
+   height: 500px;
+ }
+ h1 {
+   font-size: 50px;
+   padding-left: 30px;
+ }
+ h2 {
+   font-size: 50px;
+   padding-left: 30px;
+ }
+ #submitSearch{
+   background-color: blue;
  }
