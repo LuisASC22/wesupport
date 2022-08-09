@@ -1,0 +1,65 @@
+div {
+    font-family: Helvetica;
+    background-color: #196436;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+ }
+  
+.items {
+   size: 500px;
+}
+
+ #big_div {
+    display: flex;
+    justify-content: space-around;
+ }
+  
+ img {
+    width: 60px;
+ }
+
+ .walmartimg {
+    width: 900px;
+    padding-right: 20px;
+ }
+
+ h1{
+    padding-left: 15px;
+ }
+  
+#description{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 6%;
+        
+}
+
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ body {
+    background-color: lightgreen;
+ }
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    background-color: lightgreen;
+}
+
+#red {
+   background-color: red;
+}
+#yellow {
+   background-color: yellow;
+}
+#blue {
+   background-color: blue;
+}
