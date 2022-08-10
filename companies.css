@@ -1,26 +1,75 @@
-div {
-    font-family: Helvetica;
-    background-color: #196436;
-    color: white;
-    font-size: 32px;
-    padding: 5px;
- }
-  
-.items {
-   size: 500px;
+#big_div {
+   font-family: Helvetica;
+   background-color:  #004f2d;
+   color: white;
+   font-size: 32px;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+ 
+body{
+   background-color: #bfd7ea;
 }
 
- #big_div {
-    display: flex;
-    justify-content: space-around;
- }
-  
- img {
-    width: 60px;
- }
-  
- a {
-    width: 20%;
-    text-align: center;
-    text-decoration: none;
- }
+
+.items {
+  size: 500px;
+  color:white;
+}
+ 
+img {
+   width: 60px;
+}
+ 
+a {
+   width: 20%;
+   text-align: center;
+   text-decoration: none;
+}
+
+#schlumberger{
+   display: flex;
+   margin-bottom: 15px;
+   background-color: grey;
+}
+
+#mattel{
+   display: flex;
+   margin-bottom: 15px;
+   background-color: grey;
+}
+
+#walmart{
+   display:flex;
+   margin-bottom: 15px;
+   background-color: grey;
+}
+#mcdonalds{
+   display:flex;
+   margin-bottom: 15px;
+   background-color: grey;
+}
+
+.pictures{
+   height: 200px;
+   width: 200px;
+   border: 10px solid green;
+}
+
+.titles{
+   font-size: 20px;
+   color: blue;
+   padding-left: 110px;
+}
+
+.titles2{
+   font-size: 20px;
+   color: blue;
+}
+
+.companiesList{
+   margin-top: 20px;
+   margin-left: 200px;
+   margin-right: 500px;
+}

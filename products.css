@@ -1,6 +1,6 @@
 div {
     font-family: Helvetica;
-    background-color: #196436;
+    background-color: #004f2d;
     color: white;
     font-size: 32px;
     padding: 5px;
@@ -24,3 +24,7 @@ div {
     text-align: center;
     text-decoration: none;
  }
+
+body{
+   background-color: #bfd7ea;
+}

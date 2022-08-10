@@ -1,9 +1,10 @@
 div {
     font-family: Helvetica;
-    background-color: #196436;
+    background-color: #004f2d;
     color: white;
     font-size: 32px;
     padding: 5px;
+    border-radius: 6%;
  }
   
 .items {
@@ -21,20 +22,23 @@ div {
 
  .walmartimg {
     width: 900px;
-    padding-right: 20px;
+    padding-right: 10px;
  }
 
  h1{
     padding-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
   
 #description{
         display: flex;
         flex-direction: column;
-        width: 900px;
         margin-left: 15px;
         margin-top: 15px;
         border-radius: 6%;
+        color:  white;
+        background-color: #006d77;
+      
         
 }
 
@@ -44,22 +48,41 @@ div {
     text-decoration: none;
  }
  body {
-    background-color: lightgreen;
+    background-color: #bfd7ea
+   ;
  }
 
 .description {
     display: flex;
     justify-content: space-between;
     margin-left: 15px;
-    background-color: lightgreen        ;
+    background-color: #bfd7ea ;    
+    border-radius: 6%   ;
 }
 
 #red {
-   background-color: red;
+   background-color: rgb(106, 38, 38);
+   border-radius: 6%;
 }
 #yellow {
-   background-color: yellow;
+   background-color: rgb(180, 180, 73);
+   border-radius: 6%;
 }
 #blue {
-   background-color: blue;
+   background-color: rgb(54, 54, 136);
+   border-radius: 6%;
+}
+#green{
+   background-color: rgb(44, 164, 124);
+   border-radius: 6%;
+}
+#comments {
+   border-radius: 6%;
+}
+#Rating {
+   border-radius: 6%;
+   background-color:#508ca4;
+}
+h2{
+   font-size: 20px;
 }

@@ -1,14 +1,19 @@
 div {
     font-family: Helvetica;
-    background-color: #196436;
+    background-color: #004f2d;
     color: white;
     font-size: 32px;
     padding: 5px;
+ }
+
+ body {
+   background-color: #bfd7ea;
  }
   
 .items {
    size: 500px;
 }
+
 
  #big_div {
     display: flex;
@@ -27,9 +32,15 @@ div {
  #particles-js {
    height: 400px;
    padding: 30px;
+   background-color:#bfd7ea ;
  }
  #para {
    height: 500px;
+       color:  white;
+       color:  white;
+       background-color:#006d77;
+       
+   
  }
  h1 {
    font-size: 50px;
